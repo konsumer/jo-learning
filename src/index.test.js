@@ -2,7 +2,7 @@
 
 describe('basic tests', () => {
 	it('should multiply 2*2', () => {
-		expect(2*2).toEqual(4)
+		expect(2/2).toEqual(1)
 		console.log('hello!')
 	})
 	it('should concat strings', () =>{
