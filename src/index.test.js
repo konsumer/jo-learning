@@ -12,3 +12,15 @@ describe('basic tests', () => {
     expect(1 + 1).toEqual(2)
   })
 })
+
+describe('Array.slice()', () => {
+  it('should grab [2,3,4] with positive indexes', () => {
+    const arr = [1, 2, 3, 4, 5, 6, 7]
+    expect(arr.slice(1, 4)).toEqual([2, 3, 4])
+  })
+
+  it('should grab [2,3,4] with negative indexes', () => {
+    const arr = [1, 2, 3, 4, 5, 6, 7]
+    expect(arr.slice(1, -3)).toEqual([2, 3, 4])
+  })
+})
