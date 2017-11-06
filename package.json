@@ -1,6 +1,6 @@
 {
   "name": "jo-learning",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A repo for learning JS",
   "scripts": {
     "test": "jest --watch --notify --env node --coverage --coverageDirectory .coverage"
