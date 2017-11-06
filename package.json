@@ -4,7 +4,7 @@
   "description": "A repo for learning JS",
   "scripts": {
     "test": "jest --watch --notify --env node --coverage --coverageDirectory .coverage",
-    "start": "webpack-dev-server --hot --watch --progress --quiet --content-base=webroot --watch-content-base --history-api-fallback"
+    "start": "webpack-dev-server --hot --watch --progress --quiet --content-base=webroot --watch-content-base --history-api-fallback --open"
   },
   "repository": {
     "type": "git",
